@@ -1,13 +1,13 @@
-# Array Equality Tests
+ Array Equality Tests
 
-## Questions and Answers
+ Questions and Answers
 
-### a. What does the `assertArrayEquals` method do?
+ a. What does the `assertArrayEquals` method do?
 The `assertArrayEquals` method checks if two arrays are equal. It compares the elements of the arrays in order and ensures that they are identical in both value and order.
 
-### b. What will happen if the arrays `a1` and `a2` are not equal in `testSingleDimensionalArrayEquality`?
+ b. What will happen if the arrays `a1` and `a2` are not equal in `testSingleDimensionalArrayEquality`?
 If the arrays `a1` and `a2` are not equal, the test will fail, and an assertion error will be thrown, indicating that the arrays are not equal.
 
-### c. How does the `assertArrayEquals` method handle multi-dimensional arrays as seen in `testMultiDimensionalArrayEquality`?
+ c. How does the `assertArrayEquals` method handle multi-dimensional arrays as seen in `testMultiDimensionalArrayEquality`?
 The `assertArrayEquals` method handles multi-dimensional arrays by recursively comparing each sub-array. For the arrays to be equal, all corresponding sub-arrays must also be equal.
 
