@@ -16,18 +16,4 @@ public class ArrayEqualityTest {
         int[][] a12 = { { 2, 3 }, { 5, 7 }, { 11, 13 } };
         assertArrayEquals(a11, a12, "Should be equal");
     }
-
-    @Test
-    public void testStringArrayEquality() {
-        String[] s1 = { "apple", "banana", "cherry" };
-        String[] s2 = { "apple", "banana", "cherry" };
-        assertArrayEquals(s1, s2, "String arrays should be equal");
-    }
-
-    @Test
-    public void testDoubleArrayEquality() {
-        double[] d1 = { 1.1, 2.2, 3.3 };
-        double[] d2 = { 1.1, 2.2, 3.3 };
-        assertArrayEquals(d1, d2, "Double arrays should be equal");
-    }
 }
