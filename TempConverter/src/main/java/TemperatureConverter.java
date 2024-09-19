@@ -30,4 +30,15 @@ public class TemperatureConverter {
     public boolean isExtremeTemperature(double celsius) {
         return celsius < -40 || celsius > 50;
     }
+
+    /**
+     * Converts Kelvin to Celsius.
+     *
+     * @param kelvin The temperature in Kelvin.
+     * @return The temperature in Celsius.
+     */
+    public float kelvinToCelsius(float kelvin) {
+        return (float) (kelvin - 273.15);
+    }
 }
+
